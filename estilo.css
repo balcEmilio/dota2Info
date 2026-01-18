@@ -1,0 +1,160 @@
+body{
+  
+    color:white;
+    font-family: "Rubik Glitch";
+    /* background-image: url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9uZG8lMjBkZSUyMGVzcGFjaW98ZW58MHx8MHx8fDA%3D"); */
+
+    background-image: url("https://wallpapers.com/images/featured/fondo-de-espacio-htygkta8z6o3mcx2.jpg");
+
+
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkx6Pxp1Q7ivliGSkz_ePY5NcHLa_c95HL3g&s"); */
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+img.imgHeroe{
+ 
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.heroeAgilidad{
+    border-right: solid green 8px;
+}
+
+.heroeFuerza{
+    border-right: solid red 8px;
+}
+
+.heroeInteligencia{
+    border-right: solid blue 8px;
+
+
+}
+
+.heroeUniversal{
+    border-right: solid blueviolet 8px;
+}
+#titleInt{
+    color:white;
+
+      border-right:solid black 1px;
+     overflow:hidden;
+     text-align: center;
+      background: -webkit-linear-gradient(101deg, #6f72df,#2327c7,#0d0000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(101deg, #6f72df,#2327c7,#0d0000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+  
+    }
+#titleAgi{
+    color:white;
+    border-right:solid black 1px;
+     background: -webkit-linear-gradient(101deg, #73db75,#1ecc22,#0d0000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(101deg, #73db75,#1ecc22,#0d0000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             text-align: center;
+
+}
+#titleFue{
+    border-right:solid black 1px;
+    color:white;
+   
+     text-align: center;
+    background: -webkit-linear-gradient(101deg, #fc382e,#ea0000,#0d0000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(101deg, #fc382e,#ea0000,#0d0000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+}
+
+#titleFue:hover{
+    border-top: solid white 3px;
+    border-bottom: solid white 3px;
+
+    
+}
+#titleUni{
+    color:white;
+  
+     text-align: center;
+     border-right:solid black 1px;
+    background: -webkit-linear-gradient(101deg, #910091,#6a006a,#0d0000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(101deg, #910091,#6a006a,#0d0000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+   
+}
+
+img.imgIcono{
+width: 10%;
+height: 15%;
+}
+
+#divAtributos{
+    border:solid black 10px;
+
+}
+
+#contenedorTitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1#tituloPrincipal{
+    font-size: 5rem;
+}
+
+
+
+.divHab{
+    /* border:solid black 3px; */
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+    flex-wrap: wrap;
+   
+}
+
+.divHab img{
+    width: 70px;
+    height:70px;
+    border:solid black 1px;
+}
+
+.heroSTR{
+background: -webkit-linear-gradient(80deg, #ffffff,#c50535,#000000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(80deg, #ffffff,#c50535,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+
+}
+
+.heroInt{
+
+background: -webkit-linear-gradient(80deg, #ffffff,#0909c1,#000000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(80deg, #ffffff,#0909c1,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+
+}
+
+.heroAgi{
+
+
+background: -webkit-linear-gradient(80deg, #ffffff,#10ba1d,#000000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(80deg, #ffffff,#10ba1d,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+
+
+}
+
+.heroUni{
+
+    background: -webkit-linear-gradient(80deg, #ffffff,#733892,#000000);/* Chrome 10-25, Safari 5.1-6 */                          background: linear-gradient(80deg, #ffffff,#733892,#000000);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */                                             
+
+
+}
+
+div.card{
+    height: 100%;
+    border:solid black 1px;
+}
+
+div.divContenedorImgInfoHero{
+
+}
+
+div.columnaInfoHero{
+    
+}
+
+div.columnaImgHero{
+    /* height: 100%; */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+
+}

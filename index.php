@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="estilo.css">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap" rel="stylesheet">
+
+        <script src="./script.js" defer></script>
+        
+
+    <title>dota2 - 1</title>
+</head>
+<body>
+
+
+<div class="container">
+
+
+<div id="contenedorHeroes" >
+<div id="contenedorTitulo" >
+
+  <h1 class="col-8" id="tituloPrincipal" >Heroes Defense of the Ancients</h1>
+<!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZikFPCu_PEP-2aX1Lha6lbiZCxszN_fZZew&s" alt=""> -->
+
+  <img class="col-4" src="https://logos-marcas.com/wp-content/uploads/2020/12/Dota-2-Emblema-650x366.jpg" alt="">
+</div>
+<br>
+<div id="divAtributos" class="row">
+
+  <label id="titleAgi" class="col-3">Agilidad</label>
+  <label id="titleInt" class="col-3">Inteligencia</label>
+  <label id="titleFue" class="col-3">Fuerza</label>
+  <label id="titleUni" class="col-3">Universal</label>
+</div>
+<br>
+
+
+<!-- <div class="card mb-3">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+  </div>
+</div> -->
+
+
+
+
+<!-- card mas pequeña -->
+
+<!-- <div class="card mb-3" style="max-width: 540px;">
+  
+<div class="row g-0">
+  
+  <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="...">
+    </div>
+    
+    <div class="col-md-8">
+    
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    
+    </div>
+  </div>
+</div> -->
+
+
+
+
+
+</div>
+
+<!-- <div style="width:200px;height:80px;background:#0aa2c0;border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-weight:bold;"> $cyan-700<br>#0aa2c0 </div>
+ -->
+
+</div>
+
+    
+</body>
+</html>
