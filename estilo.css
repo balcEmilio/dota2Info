@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
   
     color:white;
@@ -10,12 +16,13 @@ body{
     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkx6Pxp1Q7ivliGSkz_ePY5NcHLa_c95HL3g&s"); */
     background-attachment: fixed;
     background-size: cover;
-
+  
 }
 img.imgHeroe{
  
-    min-height: 100%;
-    min-width: 100%;
+    min-height: 60%;
+    min-width: 50%;
+   
 }
 
 
@@ -107,8 +114,8 @@ h1#tituloPrincipal{
 }
 
 .divHab img{
-    width: 70px;
-    height:70px;
+    width: 12%;
+    height:12%;
     border:solid black 1px;
 }
 
@@ -140,7 +147,7 @@ background: -webkit-linear-gradient(80deg, #ffffff,#10ba1d,#000000);/* Chrome 10
 
 div.card{
     height: 100%;
-    border:solid black 1px;
+    border:solid white 1px;
 }
 
 div.divContenedorImgInfoHero{
@@ -156,5 +163,38 @@ div.columnaImgHero{
     /* align-items: center; */
     /* align-content: center; */
     /* justify-content: center; */
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 
+}
+
+@media screen and(min-width:50px) and (max-width:500px){
+    #contenedorHeroes{
+        display: flex;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and(max-width:578px){
+    #contenedorHeroes{
+        display: flex;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width:578px){
+    #contenedorHeroes{
+  
+        display: flex;
+        flex-wrap: wrap;
+    };
+  
+}
+
+#contBody{
+
+    height: 100%;
+    overflow-y: hidden;
 }

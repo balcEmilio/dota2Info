@@ -24,12 +24,12 @@ async function cargarHeroes() {
   const res = await fetch("https://api.opendota.com/api/heroStats");
   const heroes = await res.json();
 
-  console.log(heroes); 
+ // console.log(heroes); 
 
   heroes.forEach(hero => {
     const img = `https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/${hero.name.replace("npc_dota_hero_", "")}.png`;
 
-    console.log({
+   /* console.log({
       nombre: hero.localized_name,
       atributo: hero.primary_attr,
       vida: hero.base_health,
@@ -39,7 +39,7 @@ async function cargarHeroes() {
       imagen: img,
       id : hero.id
     });
-    
+    */
     allHeroes.push(hero.name);
     
     
@@ -48,7 +48,11 @@ async function cargarHeroes() {
     
         let divHero = document.createElement("div");
         divHero.classList.add("card");
+        
+
+
         divHero.classList.add("mb-3")
+
     
     
         let div1 = document.createElement("div");
@@ -97,7 +101,7 @@ async function cargarHeroes() {
 function modificarHeroesNombres(){
 
   allHeroes.forEach(element => {
-    console.log(element);
+  //  console.log(element);
   });
 }
 
@@ -201,7 +205,7 @@ async function cardsPequeñas(){
       const icon = `https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/icons/${hero.name.replace("npc_dota_hero_","")}.png`;
 
      // console.log(hero.icon);
-      console.log(hero.name);
+    //  console.log(hero.name);
 
 
       const texto = hero.name;
@@ -210,7 +214,7 @@ async function cardsPequeñas(){
 
     //  console.log(hero.roles);
 
-      console.log({
+/*      console.log({
       nombre: hero.localized_name,
       atributo: hero.primary_attr,
       vida: hero.base_health,
@@ -221,7 +225,7 @@ async function cardsPequeñas(){
       id : hero.id
       
       });
-
+*/
         allHeroes.push(hero.name);
 
       let cadenaRoles = "Roles: ";
@@ -234,7 +238,11 @@ async function cardsPequeñas(){
      // console.log(cadenaRoles);
       divPrincipal = document.createElement("div");
       divPrincipal.classList.add("card")
-      divPrincipal.classList.add("mb-3")
+      divPrincipal.classList.add("col-xs-12");
+      divPrincipal.classList.add("col-sm-6");
+      divPrincipal.classList.add("col-md-12");
+      divPrincipal.classList.add("col-lg-6");
+    
 
       // divPrincipal.setAttribute("style", "max-width: auto;")
 
@@ -369,10 +377,10 @@ function iconosHabilidades(){
 //console.log(habilidadesAllHeroes);
   
   Object.entries(habilidadesAllHeroes).forEach(([personaje, habilidades])=>{
-    console.log(`Habilidades de ${personaje}:`)
+  //  console.log(`Habilidades de ${personaje}:`)
 
     habilidades.foreach((habilidad,index)=>{
-     console.log(`  ${index + 1}. ${habilidad}`);
+  //   console.log(`  ${index + 1}. ${habilidad}`);
     });
   });
 
@@ -380,7 +388,7 @@ function iconosHabilidades(){
 
 function f1(){
 
-  console.log(allHeroesNombreCorto)
+ // console.log(allHeroesNombreCorto)
 
   
 
@@ -404,7 +412,7 @@ function f1(){
     }
   });
 
-  console.log(iconosHabilidadesHeroes);
+  //console.log(iconosHabilidadesHeroes);
   
 
 
@@ -420,10 +428,10 @@ function f2(){
 
   Object.entries(iconosHabilidadesHeroes).forEach((heroe,habilidades)=>{
 
-        console.log("Heroe:", heroe);
+        //console.log("Heroe:", heroe);
 
         Object.entries(heroe[1]).forEach(([key, value]) => {
-          console.log(key, value);
+         // console.log(key, value);
           let nombreHabilidad = key.slice(heroe[0].length);
           let encabezadoImg = `https://cdn.cloudflare.steamstatic.com${value}`;
 
