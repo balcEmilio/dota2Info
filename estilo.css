@@ -170,6 +170,7 @@ div.columnaImgHero{
 
 }
 
+
 @media screen and(min-width:50px) and (max-width:500px){
     #contenedorHeroes{
         display: flex;
