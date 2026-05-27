@@ -16,6 +16,9 @@ body{
     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkx6Pxp1Q7ivliGSkz_ePY5NcHLa_c95HL3g&s"); */
     background-attachment: fixed;
     background-size: cover;
+    width: 100%;
+
+  
   
 }
 img.imgHeroe{
@@ -38,6 +41,10 @@ img.imgHeroe{
     border-right: solid blue 8px;
 
 
+}
+
+#imgPrincipal{
+    border:solid black 2px;
 }
 
 .heroeUniversal{
@@ -93,13 +100,15 @@ height: 15%;
 
 #contenedorTitulo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 h1#tituloPrincipal{
     font-size: 5rem;
+       text-shadow: 10px 10px 10px black,
+  0px 0px 20px white;
 }
 
 
@@ -146,16 +155,41 @@ background: -webkit-linear-gradient(80deg, #ffffff,#10ba1d,#000000);/* Chrome 10
 }
 
 div.card{
-    height: 100%;
     border:solid white 1px;
+    display: flex;
+
+    justify-content:center;
+    align-items: center;
+   background-color: black;
+  
 }
 
+
+
 div.divContenedorImgInfoHero{
+   
+    
+  
 
 }
 
 div.columnaInfoHero{
+   
     
+}
+
+#contenedorHeroes{
+    border:solid black 1px;
+    width: 100%;
+    justify-content: center;
+    gap:2px 2px;
+   
+      
+}
+
+#contenedorHeroes2{
+
+
 }
 
 div.columnaImgHero{
@@ -167,6 +201,7 @@ div.columnaImgHero{
     align-items: center;
     justify-content: center;
     background-color: black;
+    
 
 }
 
@@ -198,4 +233,10 @@ div.columnaImgHero{
 
     height: 100%;
     overflow-y: hidden;
+    border:solid black 2px;
+   
+
+     background: rgba(15, 15, 15, 0.459); /*semitransparente */
+    
+   backdrop-filter: blur(36px); /*🔥 esto crea el efecto borroso */
 }

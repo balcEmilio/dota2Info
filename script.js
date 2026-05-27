@@ -13,6 +13,8 @@ let habilidadesAllHeroes2 = [];
 let i = 0;
 
 
+
+
 //let divHabilidades = document.getElementById("divHabilidades")
 
 //const habilidadesHero = traerHabilidades();
@@ -238,10 +240,10 @@ async function cardsPequeñas(){
      // console.log(cadenaRoles);
       divPrincipal = document.createElement("div");
       divPrincipal.classList.add("card")
-      divPrincipal.classList.add("col-xs-12");
-      divPrincipal.classList.add("col-sm-6");
-      divPrincipal.classList.add("col-md-12");
-      divPrincipal.classList.add("col-lg-6");
+      divPrincipal.classList.add("col-xs-11");
+      divPrincipal.classList.add("col-sm-5");
+      divPrincipal.classList.add("col-md-11");
+      divPrincipal.classList.add("col-lg-5");
     
 
       // divPrincipal.setAttribute("style", "max-width: auto;")
